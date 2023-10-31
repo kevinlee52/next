@@ -1,11 +1,9 @@
-import React from 'react'
+"use client";
+import React from "react";
 
-const login = () => {
-    return (
-        <div>
-            login page
-        </div>
-    )
-}
+const Login = () => {
+  console.log("Login render");
+  return <div>Login</div>;
+};
 
-export default login
+export default Login;
